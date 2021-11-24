@@ -1,5 +1,5 @@
 def hello(name):
-    if name == 'Arthur':
-        return 'Hello, Arthur!'
+    if name in ['Arthur', 'Tanguy']:
+        return 'Hello ' + name + '!'
     else:
         return 'Je ne vous connais pas'
